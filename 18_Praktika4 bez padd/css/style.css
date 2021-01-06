@@ -1,0 +1,78 @@
+@import url(reset.css)
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+
+.heading h1 {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+	color: white;
+	
+
+}
+.page {
+	background-color: #E5E000;
+	width: 1440px;
+
+}
+.heading {
+	background-color: #E5E000;
+	height: 200px;
+	width: 1440px;
+}
+.picture {
+	background-image: cover
+}
+
+}
+
+
+.box h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-decoration: none; /*почему-то не сработал */
+	color:white;
+}
+
+.content {
+	
+	width: 1280px;	
+}
+
+.content h1 {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+.content p {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 140%
+}
+
+.footer {
+	background-color: #E5E000;
+	height: 200px;
+	width: 1440px;
+}
+
+
+.logo {
+	height: 46px;	
+	background-image: url(../img/logo.svg);
+	background-position: center left ;
+	background-repeat: no-repeat;
+
+}
+
+
+.footer h1 { 
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bold;
+	font-size: 50px; 
+	color: white;
+	text-align: right;
+
+}
