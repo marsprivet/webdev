@@ -1,0 +1,18 @@
+.header	{
+	width: 500px;
+	height: 200px;
+	background-color: blue;
+	background-image: url(../img/mem.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom; 
+	
+
+}
+
+.bigSection {
+	height: 300px;	
+	background-image: url(../img/mem.jpg);
+	background-position: centrer; 
+	background-attachment: fixed;
+}

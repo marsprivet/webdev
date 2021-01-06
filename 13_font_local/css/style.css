@@ -1,0 +1,13 @@
+@font-face {
+	src: url(../font/SuisseIntl-Medium.otf);
+	font-family:'Suisse';
+
+
+}
+
+
+
+.paragraph p {
+	font-family:'Suisse'
+
+}
