@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+.outer	{
+	width: 600px;
+	height: 500px;
+	border: 5px solid black;
+	margin:  20px auto; 
+
+}
+
+
+.inner {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	/*margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 30px*/
+	
+	/*margin: 50px 20px 40px 30px;*/ /*задать все 4 значения по часовой стрелке*/
+	/*margin: 50px 20px 30px; */ /* задать 3 параметра, комп сам отзеркалит пнедостоющую сторону */
+	/*margin: 50px 30px; */ /* задать 2 параметра, комп сам отзеркалит недостоющие стороны */
+	margin: 50px ; /* по всем сторонам будет одинаковый отступ */
+}

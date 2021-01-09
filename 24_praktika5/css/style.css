@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+header {
+	background-color: #FE1A19;
+	height: 60px;
+	color:white;
+	box-sizing: border-box;
+	padding: 20px ;
+	margin-bottom: 62px
+
+
+	
+}
+
+footer {
+	background-color: #FE1A19;
+	height: 60px;
+	color:white;
+	box-sizing: border-box;
+	padding: 20px ;
+	position: relative;
+	}
+
+.heading {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+section {
+	margin: 0px 70px 0px 70px;
+	padding: 50px
+
+}
+main	{
+	margin-right: 50px;
+	margin-bottom: 62px;
+	display: inline-block;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	width: 400px;
+	padding:33px 
+
+}
+
+.MainSection h2{
+		font-family: sans-serif;
+		font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 41px
+}
+
+.MainSection p {
+	font-family: serif;
+		font-size: 20px;
+	font-weight: normal;
+	line-height: 23px
+
+
+}
+.MainSection div {
+	margin-bottom: 20px;
+}
+
+
+footer div {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+
+.Back {
+	position: absolute;
+	right:20px;
+}
