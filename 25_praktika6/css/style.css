@@ -11,23 +11,24 @@ header {
 	box-sizing: border-box;
 	padding: 30px;
 	position: fixed;
-}
 
+
+
+}
 .menu {
-	width: 100%;
 	display: flex;
 	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	margin:0px 50px;
 }
 
+.nav a {
+		padding-right: 25px
 
-.nav {
-	
-	justify-content: flex-end;
-	align-items: baseline;
-	align-content: center;	
 }
-
-
 
 
 a { text-decoration: none;
@@ -150,10 +151,15 @@ footer {
 	font-weight: bold;
 	box-sizing: border-box;
 	padding: 20px;
-	position: relative;
+
 }
 
-.Back {
-	position: absolute;
-	right:20px;
+.FooterFlex {
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	margin:0px 50px;
 }
